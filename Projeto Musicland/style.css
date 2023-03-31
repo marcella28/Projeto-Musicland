@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #C6CDFD;
+}
+
+nav{
+    background-color: #A0A6FF;
+    padding: 20px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.partedalogo{
+    display: flex;
+    align-items: center;
+}
+
+.partedalogo img{
+    width: 150px;
+    margin-right: 20px;
+}
+
+ul{
+    display: flex;
+    gap: 30px;
+    list-style: none;
+}
+
+a{
+    color: #111;
+    text-decoration: none;
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-left: 20px;
+}
+
+.oi{
+    color:#111;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 80px;
+    background: url(./imagens/público.jfif);
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative; 
+    
+}
+.convite{
+    z-index: 9999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    flex-direction: column;
+    text-align: center;
+    gap: 60px;
+    padding: 20px 0px;
+ 
+}
+
+.transparente{
+    height: 100%;
+    width: 100%;
+    background-color:#FFF;
+    opacity: 0.5;
+    z-index: 1;
+}
+.artistexampletitle{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 40px;
+    padding-left: 25%;
+    margin: 20px; 
+}
+
+.artistexampletext{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    padding-left: 25%; 
+    margin: 40px;
+    padding-right: 300px;
+}
+
+.artistas{
+    margin: 40px;
+}
+
+.descrições{
+    margin: 40px;
+}
+
+.instagram{
+    margin: 40px;
+}
+
+
